@@ -8,3 +8,7 @@ patches:
   - path: affinity.yaml
     target:
       kind: Deployment
+patches:
+  - path: broken.yaml
+    target:
+      kind: Deployment
